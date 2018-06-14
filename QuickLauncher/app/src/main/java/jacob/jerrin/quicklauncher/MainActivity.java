@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // referencing the button using the id of the button on the activity
-        // this is to launch an acitivity within our own app
+        // this is to launch an activity within our own app
         Button secondActivityBtn = (Button) findViewById(R.id.secondActivityBtn);
         secondActivityBtn.setOnClickListener(new View.OnClickListener() {
             @Override
